@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace FactoryPatternDemo
 {
-    public class Circle:IShape
+    public class Square:IShape
     {
         public void Draw()
         {
-            Console.WriteLine("Drawing a Circle");
+            Console.WriteLine("Drawing a Square");
+            
 
         }
     }
